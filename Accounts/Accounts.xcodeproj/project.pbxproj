@@ -21,6 +21,8 @@
 		C64F63F91994B1A600097771 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64F63DB1994B1A600097771 /* UIKit.framework */; };
 		C64F64011994B1A600097771 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C64F63FF1994B1A600097771 /* InfoPlist.strings */; };
 		C64F64031994B1A600097771 /* AccountsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C64F64021994B1A600097771 /* AccountsTests.m */; };
+		C6D965EA1994D428004327F2 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D965E91994D428004327F2 /* Twitter.framework */; };
+		C6D965EC1994D430004327F2 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D965EB1994D430004327F2 /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		C64F63FE1994B1A600097771 /* AccountsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AccountsTests-Info.plist"; sourceTree = "<group>"; };
 		C64F64001994B1A600097771 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C64F64021994B1A600097771 /* AccountsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountsTests.m; sourceTree = "<group>"; };
+		C6D965E91994D428004327F2 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		C6D965EB1994D430004327F2 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6D965EC1994D430004327F2 /* Accounts.framework in Frameworks */,
+				C6D965EA1994D428004327F2 /* Twitter.framework in Frameworks */,
 				C64F63DA1994B1A600097771 /* CoreGraphics.framework in Frameworks */,
 				C64F63DC1994B1A600097771 /* UIKit.framework in Frameworks */,
 				C64F63D81994B1A600097771 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,8 @@
 		C64F63D61994B1A600097771 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C6D965EB1994D430004327F2 /* Accounts.framework */,
+				C6D965E91994D428004327F2 /* Twitter.framework */,
 				C64F63D71994B1A600097771 /* Foundation.framework */,
 				C64F63D91994B1A600097771 /* CoreGraphics.framework */,
 				C64F63DB1994B1A600097771 /* UIKit.framework */,
@@ -376,6 +384,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Accounts/Accounts-Prefix.pch";
 				INFOPLIST_FILE = "Accounts/Accounts-Info.plist";
@@ -389,6 +398,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Accounts/Accounts-Prefix.pch";
 				INFOPLIST_FILE = "Accounts/Accounts-Info.plist";
@@ -456,6 +466,7 @@
 				C64F64081994B1A600097771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C64F64091994B1A600097771 /* Build configuration list for PBXNativeTarget "AccountsTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +475,7 @@
 				C64F640B1994B1A600097771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,14 @@
 //
 
 #import "ViewController.h"
+#import <Accounts/Accounts.h>
+#import <Twitter/Twitter.h>
+
+
+#define BARBUTTONITEM(bar,title,act) UIBarButtonItem *bar = [[UIBarButtonItem alloc] initWithTitle:title \
+style:UIBarButtonItemStylePlain \
+target:self \
+action:act];
 
 @interface ViewController ()
 
