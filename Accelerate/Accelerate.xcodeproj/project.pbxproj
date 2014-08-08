@@ -402,6 +402,7 @@
 				C6ED15F7199202BB000B371D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6ED15F8199202BB000B371D /* Build configuration list for PBXNativeTarget "AccelerateTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +411,7 @@
 				C6ED15FA199202BB000B371D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
