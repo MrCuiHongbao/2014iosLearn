@@ -1,0 +1,32 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#define JIUSHIKUAI_SHARE_KEY @"53f2fb78fd98c536d2007836"
+    #import "UMSocial.h"
+#endif
+
+//使用默认UI风格
+//#define UMSocialDefault 123
+
+//使用分享API（自动授权后跳转到内容编辑页）
+//#define UMSocialAPI 123
+
+//直接分享底层接口（自动检查授权）
+//#define UMSocialBasicAutoAuth 123
+
+//直接分享底层接口（授权 + 分享接口分离）
+#define UMSocialBasicAuthSepShare 123
+
+

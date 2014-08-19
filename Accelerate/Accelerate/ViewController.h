@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+- (IBAction)shareButtonClicked:(UIButton *)sender;
+- (IBAction)sharebuttonClicked;
 
 
 @end
