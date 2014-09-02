@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:NSTextFieldDemo/NSTextFieldDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:WebViewHttpsAuth/WebViewHttpsAuth.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ShareSDKMessage/ShareSDKMessage.xcodeproj">
    </FileRef>
    <FileRef

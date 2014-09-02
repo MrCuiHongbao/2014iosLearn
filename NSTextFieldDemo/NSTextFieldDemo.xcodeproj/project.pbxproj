@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6A285B119B56EF400178C58 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A285B019B56EF400178C58 /* Cocoa.framework */; };
+		C6A285BB19B56EF400178C58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6A285B919B56EF400178C58 /* InfoPlist.strings */; };
+		C6A285BD19B56EF400178C58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A285BC19B56EF400178C58 /* main.m */; };
+		C6A285C119B56EF400178C58 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C6A285BF19B56EF400178C58 /* Credits.rtf */; };
+		C6A285C419B56EF400178C58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A285C319B56EF400178C58 /* AppDelegate.m */; };
+		C6A285C719B56EF400178C58 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6A285C519B56EF400178C58 /* MainMenu.xib */; };
+		C6A285C919B56EF400178C58 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A285C819B56EF400178C58 /* Images.xcassets */; };
+		C6A285D019B56EF400178C58 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A285CF19B56EF400178C58 /* XCTest.framework */; };
+		C6A285D119B56EF400178C58 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A285B019B56EF400178C58 /* Cocoa.framework */; };
+		C6A285D919B56EF400178C58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6A285D719B56EF400178C58 /* InfoPlist.strings */; };
+		C6A285DB19B56EF400178C58 /* NSTextFieldDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A285DA19B56EF400178C58 /* NSTextFieldDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6A285D219B56EF400178C58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A285A519B56EF300178C58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6A285AC19B56EF400178C58;
+			remoteInfo = NSTextFieldDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6A285AD19B56EF400178C58 /* NSTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A285B019B56EF400178C58 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C6A285B319B56EF400178C58 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C6A285B419B56EF400178C58 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C6A285B519B56EF400178C58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C6A285B819B56EF400178C58 /* NSTextFieldDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSTextFieldDemo-Info.plist"; sourceTree = "<group>"; };
+		C6A285BA19B56EF400178C58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6A285BC19B56EF400178C58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6A285BE19B56EF400178C58 /* NSTextFieldDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTextFieldDemo-Prefix.pch"; sourceTree = "<group>"; };
+		C6A285C019B56EF400178C58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C6A285C219B56EF400178C58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6A285C319B56EF400178C58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6A285C619B56EF400178C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C6A285C819B56EF400178C58 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C6A285CE19B56EF400178C58 /* NSTextFieldDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSTextFieldDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A285CF19B56EF400178C58 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C6A285D619B56EF400178C58 /* NSTextFieldDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSTextFieldDemoTests-Info.plist"; sourceTree = "<group>"; };
+		C6A285D819B56EF400178C58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6A285DA19B56EF400178C58 /* NSTextFieldDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTextFieldDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6A285AA19B56EF400178C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A285B119B56EF400178C58 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A285CB19B56EF400178C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A285D119B56EF400178C58 /* Cocoa.framework in Frameworks */,
+				C6A285D019B56EF400178C58 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6A285A419B56EF300178C58 = {
+			isa = PBXGroup;
+			children = (
+				C6A285B619B56EF400178C58 /* NSTextFieldDemo */,
+				C6A285D419B56EF400178C58 /* NSTextFieldDemoTests */,
+				C6A285AF19B56EF400178C58 /* Frameworks */,
+				C6A285AE19B56EF400178C58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6A285AE19B56EF400178C58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6A285AD19B56EF400178C58 /* NSTextFieldDemo.app */,
+				C6A285CE19B56EF400178C58 /* NSTextFieldDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A285AF19B56EF400178C58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6A285B019B56EF400178C58 /* Cocoa.framework */,
+				C6A285CF19B56EF400178C58 /* XCTest.framework */,
+				C6A285B219B56EF400178C58 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6A285B219B56EF400178C58 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6A285B319B56EF400178C58 /* AppKit.framework */,
+				C6A285B419B56EF400178C58 /* CoreData.framework */,
+				C6A285B519B56EF400178C58 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C6A285B619B56EF400178C58 /* NSTextFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C6A285C219B56EF400178C58 /* AppDelegate.h */,
+				C6A285C319B56EF400178C58 /* AppDelegate.m */,
+				C6A285C519B56EF400178C58 /* MainMenu.xib */,
+				C6A285C819B56EF400178C58 /* Images.xcassets */,
+				C6A285B719B56EF400178C58 /* Supporting Files */,
+			);
+			path = NSTextFieldDemo;
+			sourceTree = "<group>";
+		};
+		C6A285B719B56EF400178C58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6A285B819B56EF400178C58 /* NSTextFieldDemo-Info.plist */,
+				C6A285B919B56EF400178C58 /* InfoPlist.strings */,
+				C6A285BC19B56EF400178C58 /* main.m */,
+				C6A285BE19B56EF400178C58 /* NSTextFieldDemo-Prefix.pch */,
+				C6A285BF19B56EF400178C58 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6A285D419B56EF400178C58 /* NSTextFieldDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6A285DA19B56EF400178C58 /* NSTextFieldDemoTests.m */,
+				C6A285D519B56EF400178C58 /* Supporting Files */,
+			);
+			path = NSTextFieldDemoTests;
+			sourceTree = "<group>";
+		};
+		C6A285D519B56EF400178C58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6A285D619B56EF400178C58 /* NSTextFieldDemoTests-Info.plist */,
+				C6A285D719B56EF400178C58 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6A285AC19B56EF400178C58 /* NSTextFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6A285DE19B56EF400178C58 /* Build configuration list for PBXNativeTarget "NSTextFieldDemo" */;
+			buildPhases = (
+				C6A285A919B56EF400178C58 /* Sources */,
+				C6A285AA19B56EF400178C58 /* Frameworks */,
+				C6A285AB19B56EF400178C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSTextFieldDemo;
+			productName = NSTextFieldDemo;
+			productReference = C6A285AD19B56EF400178C58 /* NSTextFieldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6A285CD19B56EF400178C58 /* NSTextFieldDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6A285E119B56EF400178C58 /* Build configuration list for PBXNativeTarget "NSTextFieldDemoTests" */;
+			buildPhases = (
+				C6A285CA19B56EF400178C58 /* Sources */,
+				C6A285CB19B56EF400178C58 /* Frameworks */,
+				C6A285CC19B56EF400178C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6A285D319B56EF400178C58 /* PBXTargetDependency */,
+			);
+			name = NSTextFieldDemoTests;
+			productName = NSTextFieldDemoTests;
+			productReference = C6A285CE19B56EF400178C58 /* NSTextFieldDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6A285A519B56EF300178C58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.yourcompany.orgnanization;
+				TargetAttributes = {
+					C6A285CD19B56EF400178C58 = {
+						TestTargetID = C6A285AC19B56EF400178C58;
+					};
+				};
+			};
+			buildConfigurationList = C6A285A819B56EF300178C58 /* Build configuration list for PBXProject "NSTextFieldDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6A285A419B56EF300178C58;
+			productRefGroup = C6A285AE19B56EF400178C58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6A285AC19B56EF400178C58 /* NSTextFieldDemo */,
+				C6A285CD19B56EF400178C58 /* NSTextFieldDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6A285AB19B56EF400178C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A285BB19B56EF400178C58 /* InfoPlist.strings in Resources */,
+				C6A285C919B56EF400178C58 /* Images.xcassets in Resources */,
+				C6A285C119B56EF400178C58 /* Credits.rtf in Resources */,
+				C6A285C719B56EF400178C58 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A285CC19B56EF400178C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A285D919B56EF400178C58 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6A285A919B56EF400178C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A285C419B56EF400178C58 /* AppDelegate.m in Sources */,
+				C6A285BD19B56EF400178C58 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A285CA19B56EF400178C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A285DB19B56EF400178C58 /* NSTextFieldDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6A285D319B56EF400178C58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6A285AC19B56EF400178C58 /* NSTextFieldDemo */;
+			targetProxy = C6A285D219B56EF400178C58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6A285B919B56EF400178C58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6A285BA19B56EF400178C58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C6A285BF19B56EF400178C58 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6A285C019B56EF400178C58 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C6A285C519B56EF400178C58 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6A285C619B56EF400178C58 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C6A285D719B56EF400178C58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6A285D819B56EF400178C58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6A285DC19B56EF400178C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C6A285DD19B56EF400178C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C6A285DF19B56EF400178C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSTextFieldDemo/NSTextFieldDemo-Prefix.pch";
+				INFOPLIST_FILE = "NSTextFieldDemo/NSTextFieldDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C6A285E019B56EF400178C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSTextFieldDemo/NSTextFieldDemo-Prefix.pch";
+				INFOPLIST_FILE = "NSTextFieldDemo/NSTextFieldDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C6A285E219B56EF400178C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSTextFieldDemo.app/Contents/MacOS/NSTextFieldDemo";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSTextFieldDemo/NSTextFieldDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NSTextFieldDemoTests/NSTextFieldDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C6A285E319B56EF400178C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSTextFieldDemo.app/Contents/MacOS/NSTextFieldDemo";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSTextFieldDemo/NSTextFieldDemo-Prefix.pch";
+				INFOPLIST_FILE = "NSTextFieldDemoTests/NSTextFieldDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6A285A819B56EF300178C58 /* Build configuration list for PBXProject "NSTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A285DC19B56EF400178C58 /* Debug */,
+				C6A285DD19B56EF400178C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6A285DE19B56EF400178C58 /* Build configuration list for PBXNativeTarget "NSTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A285DF19B56EF400178C58 /* Debug */,
+				C6A285E019B56EF400178C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6A285E119B56EF400178C58 /* Build configuration list for PBXNativeTarget "NSTextFieldDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A285E219B56EF400178C58 /* Debug */,
+				C6A285E319B56EF400178C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6A285A519B56EF300178C58 /* Project object */;
+}
