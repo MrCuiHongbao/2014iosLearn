@@ -8,8 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate, NSTextFieldDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate, NSTextFieldDelegate, NSTextDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
-
+@property (retain) NSTextField *text;
 @end

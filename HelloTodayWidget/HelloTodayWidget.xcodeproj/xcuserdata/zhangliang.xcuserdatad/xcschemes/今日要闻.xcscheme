@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0600"
+   wasCreatedForAppExtension = "YES"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C6042D9919E7BFEC00EC9E63"
+               BuildableName = "&#x4eca;&#x65e5;&#x8981;&#x95fb;.appex"
+               BlueprintName = "&#x4eca;&#x65e5;&#x8981;&#x95fb;"
+               ReferencedContainer = "container:HelloTodayWidget.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C6042D6A19E7BCC300EC9E63"
+               BuildableName = "HelloTodayWidget.app"
+               BlueprintName = "HelloTodayWidget"
+               ReferencedContainer = "container:HelloTodayWidget.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C6042D9919E7BFEC00EC9E63"
+            BuildableName = "&#x4eca;&#x65e5;&#x8981;&#x95fb;.appex"
+            BlueprintName = "&#x4eca;&#x65e5;&#x8981;&#x95fb;"
+            ReferencedContainer = "container:HelloTodayWidget.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      askForAppToLaunch = "Yes"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <IDERemoteRunnable
+         RemotePath = "/Users/zhangliang/Library/Developer/CoreSimulator/Devices/8172166A-91C4-483C-96A6-D0271BD25A6F/data/Containers/Bundle/Application/597FDD71-1C2C-40A4-A25C-0DB9AECF19D0/HelloTodayWidget.app"
+         BundleIdentifier = "/Users/zhangliang/Library/Developer/CoreSimulator/Devices/8172166A-91C4-483C-96A6-D0271BD25A6F/data/Containers/Bundle/Application/597FDD71-1C2C-40A4-A25C-0DB9AECF19D0/HelloTodayWidget.app">
+      </IDERemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C6042D6A19E7BCC300EC9E63"
+            BuildableName = "HelloTodayWidget.app"
+            BlueprintName = "HelloTodayWidget"
+            ReferencedContainer = "container:HelloTodayWidget.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <LocationScenarioReference
+         identifier = "com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier"
+         referenceType = "1">
+      </LocationScenarioReference>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES"
+      askForAppToLaunch = "Yes">
+      <PathRunnable
+         FilePath = "/Users/zhangliang/Library/Developer/Xcode/DerivedData/HelloTodayWidget-flpvhisegzobntflkdzatxuqcynz/Build/Products/&#x4eca;&#x65e5;&#x8981;&#x95fb;">
+      </PathRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C6042D9919E7BFEC00EC9E63"
+            BuildableName = "&#x4eca;&#x65e5;&#x8981;&#x95fb;.appex"
+            BlueprintName = "&#x4eca;&#x65e5;&#x8981;&#x95fb;"
+            ReferencedContainer = "container:HelloTodayWidget.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

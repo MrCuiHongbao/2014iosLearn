@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Localization/Localization.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:NSTextFieldDemo/NSTextFieldDemo.xcodeproj">
    </FileRef>
    <FileRef

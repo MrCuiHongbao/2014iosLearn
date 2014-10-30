@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdaptiveLayout/ViewController.swift"
+            timestampString = "435037228.488187"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "addPassAction(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdaptiveLayout.ViewController.(addPassAction (AdaptiveLayout.ViewController) -&gt; (Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIButton&gt;) -&gt; ()).(closure #1)"
+                  moduleName = "AdaptiveLayout"
+                  urlString = "file:///Users/zhangliang/Desktop/2014iosLearn/AdaptiveLayout/AdaptiveLayout/ViewController.swift"
+                  timestampString = "435036513.573712"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "6896">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdaptiveLayout.ViewController.(addPassAction (AdaptiveLayout.ViewController) -&gt; (Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIButton&gt;) -&gt; ()).(closure #1)"
+                  moduleName = "AdaptiveLayout"
+                  urlString = "file:///Users/zhangliang/Desktop/2014iosLearn/AdaptiveLayout/AdaptiveLayout/ViewController.swift"
+                  timestampString = "435036513.574119"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "6912">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
