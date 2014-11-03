@@ -7,10 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C64232B51A072EE600E34002 /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64232B41A072EE600E34002 /* DVTKit.framework */; };
+		C64232BB1A072FE200E34002 /* DVTTextCompletionController+PluginDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C64232BA1A072FE200E34002 /* DVTTextCompletionController+PluginDemo.m */; };
+		C64232BE1A0731B000E34002 /* MethodSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = C64232BD1A0731B000E34002 /* MethodSwizzle.m */; };
+		C6B3EE951A07362A0000C719 /* NSView+NSViewCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B3EE941A07362A0000C719 /* NSView+NSViewCategory.m */; };
 		C6CF5E0C1A033FFC00F81EC4 /* XLog.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CF5E0B1A033FFC00F81EC4 /* XLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C64232B31A072DBD00E34002 /* XcodeCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XcodeCategory.h; sourceTree = "<group>"; };
+		C64232B41A072EE600E34002 /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = ZLPlugin/DVTKit.framework; sourceTree = "<group>"; };
+		C64232B91A072FE200E34002 /* DVTTextCompletionController+PluginDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTTextCompletionController+PluginDemo.h"; sourceTree = "<group>"; };
+		C64232BA1A072FE200E34002 /* DVTTextCompletionController+PluginDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DVTTextCompletionController+PluginDemo.m"; sourceTree = "<group>"; };
+		C64232BC1A07317C00E34002 /* MethodSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodSwizzle.h; sourceTree = "<group>"; };
+		C64232BD1A0731B000E34002 /* MethodSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodSwizzle.m; sourceTree = "<group>"; };
+		C6B3EE931A07362A0000C719 /* NSView+NSViewCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+NSViewCategory.h"; sourceTree = "<group>"; };
+		C6B3EE941A07362A0000C719 /* NSView+NSViewCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+NSViewCategory.m"; sourceTree = "<group>"; };
 		C6CF5E001A033CCB00F81EC4 /* ZLPlugin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLPlugin.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6CF5E041A033CCB00F81EC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6CF5E0A1A033FFC00F81EC4 /* XLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLog.h; sourceTree = "<group>"; };
@@ -22,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C64232B51A072EE600E34002 /* DVTKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -31,6 +44,7 @@
 		C6CF5DF71A033CCB00F81EC4 = {
 			isa = PBXGroup;
 			children = (
+				C64232B41A072EE600E34002 /* DVTKit.framework */,
 				C6CF5E021A033CCB00F81EC4 /* ZLPlugin */,
 				C6CF5E011A033CCB00F81EC4 /* Products */,
 			);
@@ -49,6 +63,13 @@
 			children = (
 				C6CF5E0A1A033FFC00F81EC4 /* XLog.h */,
 				C6CF5E0B1A033FFC00F81EC4 /* XLog.m */,
+				C64232B31A072DBD00E34002 /* XcodeCategory.h */,
+				C64232BC1A07317C00E34002 /* MethodSwizzle.h */,
+				C64232BD1A0731B000E34002 /* MethodSwizzle.m */,
+				C64232B91A072FE200E34002 /* DVTTextCompletionController+PluginDemo.h */,
+				C64232BA1A072FE200E34002 /* DVTTextCompletionController+PluginDemo.m */,
+				C6B3EE931A07362A0000C719 /* NSView+NSViewCategory.h */,
+				C6B3EE941A07362A0000C719 /* NSView+NSViewCategory.m */,
 				C6CF5E031A033CCB00F81EC4 /* Supporting Files */,
 			);
 			path = ZLPlugin;
@@ -146,6 +167,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6CF5E0C1A033FFC00F81EC4 /* XLog.m in Sources */,
+				C64232BE1A0731B000E34002 /* MethodSwizzle.m in Sources */,
+				C64232BB1A072FE200E34002 /* DVTTextCompletionController+PluginDemo.m in Sources */,
+				C6B3EE951A07362A0000C719 /* NSView+NSViewCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,9 +255,13 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = NO;
-				DSTROOT = " ${HOME}";
+				DSTROOT = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZLPlugin",
+				);
 				INFOPLIST_FILE = ZLPlugin/Info.plist;
-				INSTALL_PATH = "Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				INSTALL_PATH = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -246,9 +274,13 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = NO;
-				DSTROOT = " ${HOME}";
+				DSTROOT = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZLPlugin",
+				);
 				INFOPLIST_FILE = ZLPlugin/Info.plist;
-				INSTALL_PATH = "Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				INSTALL_PATH = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

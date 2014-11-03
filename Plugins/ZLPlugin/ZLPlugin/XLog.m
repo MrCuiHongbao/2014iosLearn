@@ -41,6 +41,8 @@
 {
     if (self = [super init]) {
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationDidFinishLaunching:) name:NSApplicationDidFinishLaunchingNotification object:nil];
+        
+//        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(notificationReceived:) name:nil object:nil];
     }
     return self;
 }
@@ -66,7 +68,7 @@
         [newMenuItem setTarget:self];
         [newMenuItem setKeyEquivalentModifierMask: NSAlternateKeyMask];
         [[editMenuItem submenu] addItem:newMenuItem];
-    }   
+    }
 }
 
 -(void) selectionDidChange:(NSNotification *)noti {
@@ -81,6 +83,7 @@
         NSRange selectedRange = [[selectedRanges objectAtIndex:0] rangeValue];
         NSString * text = textView.textStorage.string;
         self.selectedText = [text substringWithRange:selectedRange];
+        NSLog(@"selectionText*************：%@", self.selectedText);
     }
 }
 
@@ -90,5 +93,11 @@
     [alert setMessageText:self.selectedText];
     [alert runModal];
 }
+
+
+//- (void)notificationReceived:(NSNotification *)noti
+//{
+//    NSLog(@"notificationName:%@", noti.name);
+//}
 
 @end
