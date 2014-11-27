@@ -53,6 +53,7 @@
                                                  name:NSTextViewDidChangeSelectionNotification
                                                object:nil];
     NSMenuItem *editMenuItem = [[NSApp mainMenu] itemWithTitle:@"Edit"];
+    
     if (editMenuItem) {
         NSMenu * editSubMenu = [editMenuItem submenu];
         
@@ -68,6 +69,8 @@
         [newMenuItem setTarget:self];
         [newMenuItem setKeyEquivalentModifierMask: NSAlternateKeyMask];
         [[editMenuItem submenu] addItem:newMenuItem];
+        
+        
     }
 }
 

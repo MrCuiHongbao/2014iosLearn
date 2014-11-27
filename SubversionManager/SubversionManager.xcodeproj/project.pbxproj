@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6A129801A26F3D000A5DF6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A1297F1A26F3D000A5DF6A /* main.m */; };
+		C6A129831A26F3D100A5DF6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A129821A26F3D100A5DF6A /* AppDelegate.m */; };
+		C6A129941A26F3D100A5DF6A /* SubversionManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A129931A26F3D100A5DF6A /* SubversionManagerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6A1298E1A26F3D100A5DF6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A129721A26F3D000A5DF6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6A129791A26F3D000A5DF6A;
+			remoteInfo = SubversionManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6A1297A1A26F3D000A5DF6A /* SubversionManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubversionManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A1297E1A26F3D000A5DF6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6A1297F1A26F3D000A5DF6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6A129811A26F3D100A5DF6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6A129821A26F3D100A5DF6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6A1298D1A26F3D100A5DF6A /* SubversionManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubversionManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A129921A26F3D100A5DF6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6A129931A26F3D100A5DF6A /* SubversionManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubversionManagerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6A129771A26F3D000A5DF6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A1298A1A26F3D100A5DF6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6A129711A26F3D000A5DF6A = {
+			isa = PBXGroup;
+			children = (
+				C6A1297C1A26F3D000A5DF6A /* SubversionManager */,
+				C6A129901A26F3D100A5DF6A /* SubversionManagerTests */,
+				C6A1297B1A26F3D000A5DF6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6A1297B1A26F3D000A5DF6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6A1297A1A26F3D000A5DF6A /* SubversionManager.app */,
+				C6A1298D1A26F3D100A5DF6A /* SubversionManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A1297C1A26F3D000A5DF6A /* SubversionManager */ = {
+			isa = PBXGroup;
+			children = (
+				C6A129811A26F3D100A5DF6A /* AppDelegate.h */,
+				C6A129821A26F3D100A5DF6A /* AppDelegate.m */,
+				C6A1297D1A26F3D000A5DF6A /* Supporting Files */,
+			);
+			path = SubversionManager;
+			sourceTree = "<group>";
+		};
+		C6A1297D1A26F3D000A5DF6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6A1297E1A26F3D000A5DF6A /* Info.plist */,
+				C6A1297F1A26F3D000A5DF6A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6A129901A26F3D100A5DF6A /* SubversionManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6A129931A26F3D100A5DF6A /* SubversionManagerTests.m */,
+				C6A129911A26F3D100A5DF6A /* Supporting Files */,
+			);
+			path = SubversionManagerTests;
+			sourceTree = "<group>";
+		};
+		C6A129911A26F3D100A5DF6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6A129921A26F3D100A5DF6A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6A129791A26F3D000A5DF6A /* SubversionManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6A129971A26F3D100A5DF6A /* Build configuration list for PBXNativeTarget "SubversionManager" */;
+			buildPhases = (
+				C6A129761A26F3D000A5DF6A /* Sources */,
+				C6A129771A26F3D000A5DF6A /* Frameworks */,
+				C6A129781A26F3D000A5DF6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SubversionManager;
+			productName = SubversionManager;
+			productReference = C6A1297A1A26F3D000A5DF6A /* SubversionManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6A1298C1A26F3D100A5DF6A /* SubversionManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6A1299A1A26F3D100A5DF6A /* Build configuration list for PBXNativeTarget "SubversionManagerTests" */;
+			buildPhases = (
+				C6A129891A26F3D100A5DF6A /* Sources */,
+				C6A1298A1A26F3D100A5DF6A /* Frameworks */,
+				C6A1298B1A26F3D100A5DF6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6A1298F1A26F3D100A5DF6A /* PBXTargetDependency */,
+			);
+			name = SubversionManagerTests;
+			productName = SubversionManagerTests;
+			productReference = C6A1298D1A26F3D100A5DF6A /* SubversionManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6A129721A26F3D000A5DF6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = GAG;
+				TargetAttributes = {
+					C6A129791A26F3D000A5DF6A = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					C6A1298C1A26F3D100A5DF6A = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = C6A129791A26F3D000A5DF6A;
+					};
+				};
+			};
+			buildConfigurationList = C6A129751A26F3D000A5DF6A /* Build configuration list for PBXProject "SubversionManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6A129711A26F3D000A5DF6A;
+			productRefGroup = C6A1297B1A26F3D000A5DF6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6A129791A26F3D000A5DF6A /* SubversionManager */,
+				C6A1298C1A26F3D100A5DF6A /* SubversionManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6A129781A26F3D000A5DF6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A1298B1A26F3D100A5DF6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6A129761A26F3D000A5DF6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A129831A26F3D100A5DF6A /* AppDelegate.m in Sources */,
+				C6A129801A26F3D000A5DF6A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A129891A26F3D100A5DF6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A129941A26F3D100A5DF6A /* SubversionManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6A1298F1A26F3D100A5DF6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6A129791A26F3D000A5DF6A /* SubversionManager */;
+			targetProxy = C6A1298E1A26F3D100A5DF6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C6A129951A26F3D100A5DF6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C6A129961A26F3D100A5DF6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C6A129981A26F3D100A5DF6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SubversionManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6A129991A26F3D100A5DF6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SubversionManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C6A1299B1A26F3D100A5DF6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SubversionManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubversionManager.app/Contents/MacOS/SubversionManager";
+			};
+			name = Debug;
+		};
+		C6A1299C1A26F3D100A5DF6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SubversionManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubversionManager.app/Contents/MacOS/SubversionManager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6A129751A26F3D000A5DF6A /* Build configuration list for PBXProject "SubversionManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A129951A26F3D100A5DF6A /* Debug */,
+				C6A129961A26F3D100A5DF6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6A129971A26F3D100A5DF6A /* Build configuration list for PBXNativeTarget "SubversionManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A129981A26F3D100A5DF6A /* Debug */,
+				C6A129991A26F3D100A5DF6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6A1299A1A26F3D100A5DF6A /* Build configuration list for PBXNativeTarget "SubversionManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A1299B1A26F3D100A5DF6A /* Debug */,
+				C6A1299C1A26F3D100A5DF6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6A129721A26F3D000A5DF6A /* Project object */;
+}
