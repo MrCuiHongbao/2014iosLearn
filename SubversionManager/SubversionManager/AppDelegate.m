@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "NSApplication+MenuExt.h"
+#import "ZLMainWindowController.h"
 
 @interface AppDelegate ()
 
@@ -30,18 +31,52 @@
     
 }
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
-    
-    NSRect rc = CGRectMake(0, 0, 100, 100);/*[[NSScreen mainScreen] visibleFrame];*/
+- (void)showWindow
+{
+    NSRect rc = CGRectMake(0, 0, 0, 0);/*[[NSScreen mainScreen] visibleFrame];*/
     NSUInteger uistyle = NSTitledWindowMask | NSResizableWindowMask | NSClosableWindowMask | NSMiniaturizableWindowMask;
     NSBackingStoreType backingStoreStyle = NSBackingStoreBuffered;
     
     self.window = [[NSWindow alloc] initWithContentRect:rc styleMask:uistyle backing:backingStoreStyle defer:YES/* screen:screen*/];
-//    [_window setFrameOrigin:NSMakePoint((rc.size.width-[_window frame].size.width)/2, (rc.size.height-[_window frame].size.height)/2)];
     [_window setTitle:@"SubversionControl"];
     [_window makeKeyAndOrderFront:nil];
-//    [_window center];
+    //    [_window center];
+}
+
+- (void)showNewWindow
+{
+    [self showWindow];
+    
+    ZLMainWindowController * mainwindowCon = [[ZLMainWindowController alloc] initWithWindowNibName:@"ZLMainWindowController"];
+    [self.window addChildWindow:mainwindowCon.window ordered:NSWindowAbove];
+}
+
+- (void)customMenuItemView
+{
+    NSMenuItem * aboutMenuItem = [[NSMenuItem alloc] initWithTitle:@"DockMenu" action:nil keyEquivalent:@""];
+    
+    NSMenu * menu = [[NSMenu alloc] initWithTitle:@"DockMenu"];
+    NSMenuItem *newItem = [[NSMenuItem alloc] initWithTitle:@"About"
+                                                                               action:@selector(aboutDockAction:)
+                                                                        keyEquivalent:@""];
+    [newItem setTarget: self];
+    [menu addItem:newItem];
+    [aboutMenuItem setSubmenu:menu];
+    
+    [[NSApp mainMenu] addItem:aboutMenuItem];
+    
+    [self showNewWindow];
+}
+
+- (void)aboutDockAction:(id)sender
+{
+    [[NSApplication sharedApplication] orderFrontStandardAboutPanel:self];
+}
+
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    // Insert code here to initialize your application
+    
+    [self customMenuItemView];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {

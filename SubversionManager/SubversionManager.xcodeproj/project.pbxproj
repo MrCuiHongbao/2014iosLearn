@@ -13,6 +13,9 @@
 		C6DA8B981A280F800094E0A9 /* ZLRunAppScript.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DA8B971A280F800094E0A9 /* ZLRunAppScript.m */; };
 		C6DA8B9C1A2811430094E0A9 /* ZLCommandLine.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DA8B9B1A2811430094E0A9 /* ZLCommandLine.m */; };
 		C6EE67C01A28544C00F798EA /* NSApplication+MenuExt.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EE67BF1A28544C00F798EA /* NSApplication+MenuExt.m */; };
+		C6EE67C41A28620200F798EA /* ZLMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EE67C21A28620200F798EA /* ZLMainWindowController.m */; };
+		C6EE67C51A28620200F798EA /* ZLMainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6EE67C31A28620200F798EA /* ZLMainWindowController.xib */; };
+		C6EE67C91A28633F00F798EA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EE67C81A28633F00F798EA /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		C6DA8B9B1A2811430094E0A9 /* ZLCommandLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCommandLine.m; sourceTree = "<group>"; };
 		C6EE67BE1A28544C00F798EA /* NSApplication+MenuExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSApplication+MenuExt.h"; sourceTree = "<group>"; };
 		C6EE67BF1A28544C00F798EA /* NSApplication+MenuExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSApplication+MenuExt.m"; sourceTree = "<group>"; };
+		C6EE67C11A28620200F798EA /* ZLMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLMainWindowController.h; sourceTree = "<group>"; };
+		C6EE67C21A28620200F798EA /* ZLMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLMainWindowController.m; sourceTree = "<group>"; };
+		C6EE67C31A28620200F798EA /* ZLMainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLMainWindowController.xib; sourceTree = "<group>"; };
+		C6EE67C71A28633F00F798EA /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C6EE67C81A28633F00F798EA /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +89,13 @@
 		C6A1297C1A26F3D000A5DF6A /* SubversionManager */ = {
 			isa = PBXGroup;
 			children = (
+				C6EE67C61A28633F00F798EA /* Classes */,
 				C6DA8B8D1A280D4F0094E0A9 /* Common */,
 				C6A129811A26F3D100A5DF6A /* AppDelegate.h */,
 				C6A129821A26F3D100A5DF6A /* AppDelegate.m */,
+				C6EE67C11A28620200F798EA /* ZLMainWindowController.h */,
+				C6EE67C21A28620200F798EA /* ZLMainWindowController.m */,
+				C6EE67C31A28620200F798EA /* ZLMainWindowController.xib */,
 				C6A1297D1A26F3D000A5DF6A /* Supporting Files */,
 			);
 			path = SubversionManager;
@@ -158,6 +170,15 @@
 				C6EE67BF1A28544C00F798EA /* NSApplication+MenuExt.m */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		C6EE67C61A28633F00F798EA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C6EE67C71A28633F00F798EA /* Person.h */,
+				C6EE67C81A28633F00F798EA /* Person.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6EE67C51A28620200F798EA /* ZLMainWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +281,8 @@
 			files = (
 				C6DA8B981A280F800094E0A9 /* ZLRunAppScript.m in Sources */,
 				C6A129831A26F3D100A5DF6A /* AppDelegate.m in Sources */,
+				C6EE67C91A28633F00F798EA /* Person.m in Sources */,
+				C6EE67C41A28620200F798EA /* ZLMainWindowController.m in Sources */,
 				C6DA8B9C1A2811430094E0A9 /* ZLCommandLine.m in Sources */,
 				C6A129801A26F3D000A5DF6A /* main.m in Sources */,
 				C6EE67C01A28544C00F798EA /* NSApplication+MenuExt.m in Sources */,
@@ -399,6 +423,7 @@
 				);
 				INFOPLIST_FILE = SubversionManagerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubversionManager.app/Contents/MacOS/SubversionManager";
 			};
@@ -415,6 +440,7 @@
 				);
 				INFOPLIST_FILE = SubversionManagerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubversionManager.app/Contents/MacOS/SubversionManager";
 			};

@@ -1,5 +1,5 @@
 //
-//  NSApplication+MenuExt.h
+//  ZLMainWindowController.h
 //  SubversionManager
 //
 //  Created by zhangliang on 14/11/28.
@@ -8,11 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface NSApplication (MenuExt)
-
-/**
- *	@brief	自定义菜单栏
- */
-+ (void)makeMenu;
+@interface ZLMainWindowController : NSWindowController
 
 @end
