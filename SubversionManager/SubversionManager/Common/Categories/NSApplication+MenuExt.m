@@ -31,7 +31,14 @@
     NSMenuItem * formatMenuItem = [[NSMenuItem alloc] init];
     [menuBar addItem:formatMenuItem];
     
+    NSMenuItem * viewMenuItem = [[NSMenuItem alloc] init];
+    [menuBar addItem:viewMenuItem];
     
+    NSMenuItem * windowMenuItem = [[NSMenuItem alloc] init];
+    [menuBar addItem:windowMenuItem];
+    
+    NSMenuItem * helpMenuItem = [[NSMenuItem alloc] init];
+    [menuBar addItem:helpMenuItem];
     
     [appMenuItem setSubmenu:[self appMenu]];
     
@@ -40,6 +47,12 @@
     [editMenuItem setSubmenu:[self editMenu]];
     
     [formatMenuItem setSubmenu:[self formatMenu]];
+    
+    [viewMenuItem setSubmenu:[self viewMenu]];
+    
+    [windowMenuItem setSubmenu:[self windowMenu]];
+    
+    [helpMenuItem setSubmenu:[self helpMenu]];
 }
 
 #pragma mark - App menu
@@ -467,7 +480,30 @@
 
 + (NSMenu *)formatMenu
 {
-    return nil;
+    NSMenu * appMenu = [[NSMenu alloc] initWithTitle:@"Format"];
+    
+    return appMenu;
+}
+
++ (NSMenu *)viewMenu
+{
+    NSMenu * appMenu = [[NSMenu alloc] initWithTitle:@"View"];
+    
+    return appMenu;
+}
+
++ (NSMenu *)windowMenu
+{
+    NSMenu * appMenu = [[NSMenu alloc] initWithTitle:@"Window"];
+    
+    return appMenu;
+}
+
++ (NSMenu *)helpMenu
+{
+    NSMenu * appMenu = [[NSMenu alloc] initWithTitle:@"Help"];
+    
+    return appMenu;
 }
 
 @end
