@@ -12,7 +12,7 @@
 		C6A129941A26F3D100A5DF6A /* SubversionManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A129931A26F3D100A5DF6A /* SubversionManagerTests.m */; };
 		C6DA8B981A280F800094E0A9 /* ZLRunAppScript.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DA8B971A280F800094E0A9 /* ZLRunAppScript.m */; };
 		C6DA8B9C1A2811430094E0A9 /* ZLCommandLine.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DA8B9B1A2811430094E0A9 /* ZLCommandLine.m */; };
-		C6EE67B91A2852DF00F798EA /* NSApplication+MenuExt.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EE67B81A2852DF00F798EA /* NSApplication+MenuExt.m */; };
+		C6EE67C01A28544C00F798EA /* NSApplication+MenuExt.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EE67BF1A28544C00F798EA /* NSApplication+MenuExt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,8 @@
 		C6DA8B971A280F800094E0A9 /* ZLRunAppScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLRunAppScript.m; sourceTree = "<group>"; };
 		C6DA8B9A1A2811430094E0A9 /* ZLCommandLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCommandLine.h; sourceTree = "<group>"; };
 		C6DA8B9B1A2811430094E0A9 /* ZLCommandLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCommandLine.m; sourceTree = "<group>"; };
-		C6EE67B71A2852DF00F798EA /* NSApplication+MenuExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSApplication+MenuExt.h"; sourceTree = SOURCE_ROOT; };
-		C6EE67B81A2852DF00F798EA /* NSApplication+MenuExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSApplication+MenuExt.m"; sourceTree = SOURCE_ROOT; };
+		C6EE67BE1A28544C00F798EA /* NSApplication+MenuExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSApplication+MenuExt.h"; sourceTree = "<group>"; };
+		C6EE67BF1A28544C00F798EA /* NSApplication+MenuExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSApplication+MenuExt.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +118,7 @@
 		C6DA8B8D1A280D4F0094E0A9 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				C6DA8BC31A281A5C0094E0A9 /* Categories */,
+				C6EE67BD1A28544C00F798EA /* Categories */,
 				C6DA8B9D1A2812C10094E0A9 /* ScreenOperation */,
 				C6DA8B991A2811030094E0A9 /* CommandLine */,
 				C6DA8B951A280F680094E0A9 /* AppleScript */,
@@ -151,11 +151,11 @@
 			path = ScreenOperation;
 			sourceTree = "<group>";
 		};
-		C6DA8BC31A281A5C0094E0A9 /* Categories */ = {
+		C6EE67BD1A28544C00F798EA /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				C6EE67B71A2852DF00F798EA /* NSApplication+MenuExt.h */,
-				C6EE67B81A2852DF00F798EA /* NSApplication+MenuExt.m */,
+				C6EE67BE1A28544C00F798EA /* NSApplication+MenuExt.h */,
+				C6EE67BF1A28544C00F798EA /* NSApplication+MenuExt.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -258,10 +258,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6DA8B981A280F800094E0A9 /* ZLRunAppScript.m in Sources */,
-				C6EE67B91A2852DF00F798EA /* NSApplication+MenuExt.m in Sources */,
 				C6A129831A26F3D100A5DF6A /* AppDelegate.m in Sources */,
 				C6DA8B9C1A2811430094E0A9 /* ZLCommandLine.m in Sources */,
 				C6A129801A26F3D000A5DF6A /* main.m in Sources */,
+				C6EE67C01A28544C00F798EA /* NSApplication+MenuExt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
