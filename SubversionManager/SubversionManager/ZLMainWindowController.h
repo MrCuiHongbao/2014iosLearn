@@ -9,5 +9,11 @@
 #import <Cocoa/Cocoa.h>
 
 @interface ZLMainWindowController : NSWindowController
+@property (weak) IBOutlet NSButton *startButton;
+@property (weak) IBOutlet NSButton *stopButton;
+
+- (IBAction)sayIt:(id)sender;
+
+- (IBAction)stop:(id)sender;
 
 @end
