@@ -10,31 +10,31 @@
 	<string>Scene Kit Session WWDC 2014</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>16BA8DAB-D239-438A-8373-5C95B0B3BA56</key>
-		<string>ssh://git.apple.com/git/SceneKitMisc</string>
+		<key>5090D71DC151A183602C17C87D4BF0FDE175F714</key>
+		<string>https://github.com/zhiliang729/2014iosLearn.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>OSX/demos/WWDC2014/Scene Kit Session WWDC 2014.xcodeproj/project.xcworkspace</string>
+	<string>SceneKitSlidesforWWDC2014/Scene Kit Session WWDC 2014.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>16BA8DAB-D239-438A-8373-5C95B0B3BA56</key>
-		<string>../../../../..</string>
+		<key>5090D71DC151A183602C17C87D4BF0FDE175F714</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://git.apple.com/git/SceneKitMisc</string>
+	<string>https://github.com/zhiliang729/2014iosLearn.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>16BA8DAB-D239-438A-8373-5C95B0B3BA56</string>
+	<string>5090D71DC151A183602C17C87D4BF0FDE175F714</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>16BA8DAB-D239-438A-8373-5C95B0B3BA56</string>
+			<string>5090D71DC151A183602C17C87D4BF0FDE175F714</string>
 			<key>IDESourceControlWCCName</key>
-			<string>SceneKitMisc</string>
+			<string>2014iosLearn</string>
 		</dict>
 	</array>
 </dict>
