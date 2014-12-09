@@ -24,12 +24,13 @@
     _presentationViewController.delegate = self;
     
     // Populate the 'Go' menu for direct access to slides
-    [self populateGoMenu];
+    [self populateGoMenu];//自定义go菜单栏  方便进入到每一个幻灯片
     
     // Start the presentation
     [self.window.contentView addSubview:_presentationViewController.presentationView];
     _presentationViewController.presentationView.frame = [self.window.contentView bounds];
-    _presentationViewController.presentationView.autoresizingMask = NSViewWidthSizable | NSViewHeightSizable;
+    _presentationViewController.presentationView.autoresizingMask = NSViewWidthSizable | NSViewHeightSizable;//自动缩放
+    
 }
 
 - (void) applicationDidFinishLaunching:(NSNotification *)notification
@@ -43,7 +44,7 @@
 }
 
 #pragma mark - Presentation delegate
-
+//代理
 - (void)presentationViewController:(AAPLPresentationViewController *)presentationViewController willPresentSlideAtIndex:(NSUInteger)slideIndex step:(NSUInteger)step {
     // Update the window's title depending on the current slide
     if (step == 0) {
@@ -86,18 +87,22 @@
     [_presentationViewController goToSlideAtIndex:index];
 }
 
+//将幻灯片导出为图片
 - (IBAction)exportSlidesToImages:(NSMenuItem *)sender {
     [_presentationViewController exportSlidesToImages:sender];
 }
 
+//将幻灯片导出为scn文件
 - (IBAction)exportSlidesToSCN:(NSMenuItem *)sender {
     [_presentationViewController exportSlidesToSCN:sender];
 }
 
+//自动播放
 - (IBAction) autoPlay:(id) sender{
     [_presentationViewController autoPlay:sender];
 }
 
+//隐藏光标
 - (IBAction)toggleCursor:(id)sender {
     static BOOL hidden = NO;
     if (hidden) {
@@ -107,6 +112,16 @@
         [NSCursor hide];
         hidden = YES;
     }
+}
+
+- (void)applicationWillHide:(NSNotification *)notification
+{
+    
+}
+
+- (void)applicationWillResignActive:(NSNotification *)notification
+{
+    [NSCursor unhide];
 }
 
 #pragma mark - NSApplicationDelegate

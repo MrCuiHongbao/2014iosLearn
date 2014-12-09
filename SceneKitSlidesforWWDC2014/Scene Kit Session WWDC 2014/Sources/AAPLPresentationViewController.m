@@ -692,6 +692,8 @@ typedef NS_ENUM(NSUInteger, AAPLLightName) {
     id view = self.view;
     NSImage* image = [view snapshot];
     
+    [[NSFileManager defaultManager] createDirectoryAtPath:[@"~/Desktop/SceneKit-WWDC14" stringByExpandingTildeInPath] withIntermediateDirectories:YES attributes:nil error:nil];
+    
     if(image){
         NSBitmapImageRep *bitmap = [[NSBitmapImageRep alloc] initWithCGImage:[image CGImageForProposedRect:NULL context:NULL hints:NULL]];
         
@@ -708,7 +710,7 @@ typedef NS_ENUM(NSUInteger, AAPLLightName) {
         [bitmap drawInRect:rect fromRect:NSZeroRect operation:NSCompositeSourceOver fraction:1 respectFlipped:YES hints:nil];
         [composite unlockFocus];
         
-        [[composite TIFFRepresentation] writeToFile:[[NSString stringWithFormat:@"~/Desktop/SceneKit-WWDC13/SceneKit_slide_%d_%d.tiff", (int)_currentSlideIndex, (int)_currentSlideIndex] stringByExpandingTildeInPath] atomically:YES];
+        [[composite TIFFRepresentation] writeToFile:[[NSString stringWithFormat:@"~/Desktop/SceneKit-WWDC14/SceneKit_slide_%d_%d.tiff", (int)_currentSlideIndex, (int)_currentSlideIndex] stringByExpandingTildeInPath] atomically:YES];
     }
 }
 
