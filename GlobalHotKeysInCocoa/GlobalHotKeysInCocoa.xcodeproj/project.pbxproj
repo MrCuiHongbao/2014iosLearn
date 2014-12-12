@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6C7B3211A3AB8E900AC1B1F /* 注册全局快捷键 in Resources */ = {isa = PBXBuildFile; fileRef = C6C7B3201A3AB8E900AC1B1F /* 注册全局快捷键 */; };
+		C6FDE4681A399499000A0533 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FDE4671A399499000A0533 /* AppDelegate.m */; };
+		C6FDE46A1A399499000A0533 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FDE4691A399499000A0533 /* main.m */; };
+		C6FDE46C1A399499000A0533 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6FDE46B1A399499000A0533 /* Images.xcassets */; };
+		C6FDE46F1A399499000A0533 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6FDE46D1A399499000A0533 /* MainMenu.xib */; };
+		C6FDE47B1A399499000A0533 /* GlobalHotKeysInCocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FDE47A1A399499000A0533 /* GlobalHotKeysInCocoaTests.m */; };
+		C6FDE4851A3998B7000A0533 /* HUDWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6FDE4841A3998B7000A0533 /* HUDWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6FDE4751A399499000A0533 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6FDE4591A399499000A0533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6FDE4601A399499000A0533;
+			remoteInfo = GlobalHotKeysInCocoa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6C7B3201A3AB8E900AC1B1F /* 注册全局快捷键 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "注册全局快捷键"; sourceTree = "<group>"; };
+		C6FDE4611A399499000A0533 /* GlobalHotKeysInCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlobalHotKeysInCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6FDE4651A399499000A0533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6FDE4661A399499000A0533 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6FDE4671A399499000A0533 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6FDE4691A399499000A0533 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6FDE46B1A399499000A0533 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C6FDE46E1A399499000A0533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C6FDE4741A399499000A0533 /* GlobalHotKeysInCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobalHotKeysInCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6FDE4791A399499000A0533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6FDE47A1A399499000A0533 /* GlobalHotKeysInCocoaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobalHotKeysInCocoaTests.m; sourceTree = "<group>"; };
+		C6FDE4841A3998B7000A0533 /* HUDWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HUDWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6FDE45E1A399499000A0533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6FDE4711A399499000A0533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6FDE4581A399499000A0533 = {
+			isa = PBXGroup;
+			children = (
+				C6FDE4631A399499000A0533 /* GlobalHotKeysInCocoa */,
+				C6FDE4771A399499000A0533 /* GlobalHotKeysInCocoaTests */,
+				C6FDE4621A399499000A0533 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6FDE4621A399499000A0533 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6FDE4611A399499000A0533 /* GlobalHotKeysInCocoa.app */,
+				C6FDE4741A399499000A0533 /* GlobalHotKeysInCocoaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6FDE4631A399499000A0533 /* GlobalHotKeysInCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				C6FDE4661A399499000A0533 /* AppDelegate.h */,
+				C6FDE4671A399499000A0533 /* AppDelegate.m */,
+				C6FDE46B1A399499000A0533 /* Images.xcassets */,
+				C6FDE46D1A399499000A0533 /* MainMenu.xib */,
+				C6FDE4641A399499000A0533 /* Supporting Files */,
+				C6FDE4841A3998B7000A0533 /* HUDWindow.xib */,
+				C6C7B3201A3AB8E900AC1B1F /* 注册全局快捷键 */,
+			);
+			path = GlobalHotKeysInCocoa;
+			sourceTree = "<group>";
+		};
+		C6FDE4641A399499000A0533 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6FDE4651A399499000A0533 /* Info.plist */,
+				C6FDE4691A399499000A0533 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6FDE4771A399499000A0533 /* GlobalHotKeysInCocoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6FDE47A1A399499000A0533 /* GlobalHotKeysInCocoaTests.m */,
+				C6FDE4781A399499000A0533 /* Supporting Files */,
+			);
+			path = GlobalHotKeysInCocoaTests;
+			sourceTree = "<group>";
+		};
+		C6FDE4781A399499000A0533 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6FDE4791A399499000A0533 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6FDE4601A399499000A0533 /* GlobalHotKeysInCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6FDE47E1A399499000A0533 /* Build configuration list for PBXNativeTarget "GlobalHotKeysInCocoa" */;
+			buildPhases = (
+				C6FDE45D1A399499000A0533 /* Sources */,
+				C6FDE45E1A399499000A0533 /* Frameworks */,
+				C6FDE45F1A399499000A0533 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlobalHotKeysInCocoa;
+			productName = GlobalHotKeysInCocoa;
+			productReference = C6FDE4611A399499000A0533 /* GlobalHotKeysInCocoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6FDE4731A399499000A0533 /* GlobalHotKeysInCocoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6FDE4811A399499000A0533 /* Build configuration list for PBXNativeTarget "GlobalHotKeysInCocoaTests" */;
+			buildPhases = (
+				C6FDE4701A399499000A0533 /* Sources */,
+				C6FDE4711A399499000A0533 /* Frameworks */,
+				C6FDE4721A399499000A0533 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6FDE4761A399499000A0533 /* PBXTargetDependency */,
+			);
+			name = GlobalHotKeysInCocoaTests;
+			productName = GlobalHotKeysInCocoaTests;
+			productReference = C6FDE4741A399499000A0533 /* GlobalHotKeysInCocoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6FDE4591A399499000A0533 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = GAG;
+				TargetAttributes = {
+					C6FDE4601A399499000A0533 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C6FDE4731A399499000A0533 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C6FDE4601A399499000A0533;
+					};
+				};
+			};
+			buildConfigurationList = C6FDE45C1A399499000A0533 /* Build configuration list for PBXProject "GlobalHotKeysInCocoa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6FDE4581A399499000A0533;
+			productRefGroup = C6FDE4621A399499000A0533 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6FDE4601A399499000A0533 /* GlobalHotKeysInCocoa */,
+				C6FDE4731A399499000A0533 /* GlobalHotKeysInCocoaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6FDE45F1A399499000A0533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6FDE4851A3998B7000A0533 /* HUDWindow.xib in Resources */,
+				C6FDE46C1A399499000A0533 /* Images.xcassets in Resources */,
+				C6FDE46F1A399499000A0533 /* MainMenu.xib in Resources */,
+				C6C7B3211A3AB8E900AC1B1F /* 注册全局快捷键 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6FDE4721A399499000A0533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6FDE45D1A399499000A0533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6FDE46A1A399499000A0533 /* main.m in Sources */,
+				C6FDE4681A399499000A0533 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6FDE4701A399499000A0533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6FDE47B1A399499000A0533 /* GlobalHotKeysInCocoaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6FDE4761A399499000A0533 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6FDE4601A399499000A0533 /* GlobalHotKeysInCocoa */;
+			targetProxy = C6FDE4751A399499000A0533 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6FDE46D1A399499000A0533 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6FDE46E1A399499000A0533 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6FDE47C1A399499000A0533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C6FDE47D1A399499000A0533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C6FDE47F1A399499000A0533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GlobalHotKeysInCocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6FDE4801A399499000A0533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GlobalHotKeysInCocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C6FDE4821A399499000A0533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GlobalHotKeysInCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlobalHotKeysInCocoa.app/Contents/MacOS/GlobalHotKeysInCocoa";
+			};
+			name = Debug;
+		};
+		C6FDE4831A399499000A0533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GlobalHotKeysInCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlobalHotKeysInCocoa.app/Contents/MacOS/GlobalHotKeysInCocoa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6FDE45C1A399499000A0533 /* Build configuration list for PBXProject "GlobalHotKeysInCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6FDE47C1A399499000A0533 /* Debug */,
+				C6FDE47D1A399499000A0533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6FDE47E1A399499000A0533 /* Build configuration list for PBXNativeTarget "GlobalHotKeysInCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6FDE47F1A399499000A0533 /* Debug */,
+				C6FDE4801A399499000A0533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6FDE4811A399499000A0533 /* Build configuration list for PBXNativeTarget "GlobalHotKeysInCocoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6FDE4821A399499000A0533 /* Debug */,
+				C6FDE4831A399499000A0533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6FDE4591A399499000A0533 /* Project object */;
+}

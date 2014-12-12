@@ -16,6 +16,7 @@
 		C6B67B301A36CB400056FAB3 /* MyWindowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6B67B2E1A36CB400056FAB3 /* MyWindowViewController.xib */; };
 		C6B67B341A36CE000056FAB3 /* moof.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B67B321A36CE000056FAB3 /* moof.png */; };
 		C6B67B351A36CE000056FAB3 /* moof2.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B67B331A36CE000056FAB3 /* moof2.png */; };
+		C6FDE4571A397992000A0533 /* MyCustomeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FDE4561A397992000A0533 /* MyCustomeWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		C6B67B2E1A36CB400056FAB3 /* MyWindowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyWindowViewController.xib; sourceTree = "<group>"; };
 		C6B67B321A36CE000056FAB3 /* moof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moof.png; sourceTree = "<group>"; };
 		C6B67B331A36CE000056FAB3 /* moof2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moof2.png; sourceTree = "<group>"; };
+		C6FDE4551A397992000A0533 /* MyCustomeWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomeWindow.h; sourceTree = "<group>"; };
+		C6FDE4561A397992000A0533 /* MyCustomeWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomeWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				C6B67B2C1A36CB400056FAB3 /* MyWindowViewController.h */,
 				C6B67B2D1A36CB400056FAB3 /* MyWindowViewController.m */,
 				C6B67B2E1A36CB400056FAB3 /* MyWindowViewController.xib */,
+				C6FDE4551A397992000A0533 /* MyCustomeWindow.h */,
+				C6FDE4561A397992000A0533 /* MyCustomeWindow.m */,
 				C6B67B131A36CB170056FAB3 /* Images.xcassets */,
 				C6B67B151A36CB170056FAB3 /* MainMenu.xib */,
 				C6B67B0C1A36CB160056FAB3 /* Supporting Files */,
@@ -237,6 +242,7 @@
 			files = (
 				C6B67B2F1A36CB400056FAB3 /* MyWindowViewController.m in Sources */,
 				C6B67B121A36CB170056FAB3 /* main.m in Sources */,
+				C6FDE4571A397992000A0533 /* MyCustomeWindow.m in Sources */,
 				C6B67B101A36CB170056FAB3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +430,7 @@
 				C6B67B281A36CB170056FAB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6B67B291A36CB170056FAB3 /* Build configuration list for PBXNativeTarget "MacDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +439,7 @@
 				C6B67B2B1A36CB170056FAB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,6 +10,8 @@
 
 @interface AppDelegate : NSObject
 
+@property (weak) IBOutlet NSWindow *window;
+
 
 
 @end

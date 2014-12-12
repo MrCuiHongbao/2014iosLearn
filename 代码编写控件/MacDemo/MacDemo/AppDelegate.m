@@ -12,7 +12,7 @@
 
 @interface AppDelegate ()
 {
-    MyWindowViewController * windowC;
+//    MyWindowViewController * windowC;
 }
 
 @end
@@ -22,8 +22,8 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
     
-    windowC = [[MyWindowViewController alloc] initWithWindowNibName:@"MyWindowViewController"];
-    [windowC showWindow:self];
+//    windowC = [[MyWindowViewController alloc] initWithWindowNibName:@"MyWindowViewController"];
+//    [windowC showWindow:self];
 }
 
 - (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender

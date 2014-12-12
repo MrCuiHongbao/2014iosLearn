@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>62274FC6-9F47-416D-BCEB-57798FBAD6EB</string>
+	<string>94C467E1-AB7C-47FA-92E9-AC8BA477CA53</string>
 	<key>IDESourceControlProjectName</key>
-	<string>MacDemo</string>
+	<string>GlobalHotKeysInCocoa</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>5090D71DC151A183602C17C87D4BF0FDE175F714</key>
 		<string>github.com:zhiliang729/2014iosLearn.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>代码编写控件/MacDemo/MacDemo.xcodeproj</string>
+	<string>GlobalHotKeysInCocoa/GlobalHotKeysInCocoa.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>5090D71DC151A183602C17C87D4BF0FDE175F714</key>
-		<string>../../../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:zhiliang729/2014iosLearn.git</string>
